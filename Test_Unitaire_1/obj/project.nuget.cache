@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RxmwLTkNXCQ2T9Gx4N87TpJAjuZj8eGaUCSeNPRuW9AiTc3k9zN/h1X8wycZREFFtwhRhAQECSo4d4w5qA5UeA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nabil\\source\\repos\\Test_Unitaire_1\\Test_Unitaire_1\\Test_Unitaire_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nabil\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\nabil\\.nuget\\packages\\moq\\4.20.72\\moq.4.20.72.nupkg.sha512",
+    "C:\\Users\\nabil\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
