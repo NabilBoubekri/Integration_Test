@@ -102,7 +102,7 @@ namespace Test_Unitaire_1_TestClasse
             mock.Object.email = "User@gmail.com";
             mock.Object.prenom = "UserName";
             mock.Object.nom = "UserLastName";
-            mock.Object.password = "aLABALALA1";
+            mock.Object.password = "aLABALALA12";
             mock.Object.date_Naissance = DateTime.Now.Subtract(TimeSpan.FromDays(365) * 14);
             Assert.IsTrue(mock.Object.isValid());
         }
