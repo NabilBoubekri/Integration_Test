@@ -47,6 +47,7 @@ namespace Test_Unitaire_1_TestClasse
             Assert.AreEqual(true, user.isValid());
         }*/
         [TestMethod]
+        [TestCategory("Unit")]
         public void TestValidUser()
         {
             DateTime date = DateTime.Now.Subtract(TimeSpan.FromDays(365) * 14);
@@ -54,6 +55,7 @@ namespace Test_Unitaire_1_TestClasse
             Assert.AreEqual(true, user.isValid());
         }
         [TestMethod]
+        [TestCategory("Unit")]
         public void TestAddItem()
         {
             DateTime date = DateTime.Now.Subtract(TimeSpan.FromDays(365) * 14);
@@ -62,6 +64,7 @@ namespace Test_Unitaire_1_TestClasse
             Assert.IsTrue(user.add(item));
         }
         [TestMethod]
+        [TestCategory("Unit")]
         public void TestAddItem2()
         {
             DateTime date = DateTime.Now.Subtract(TimeSpan.FromDays(365) * 14);
@@ -72,6 +75,7 @@ namespace Test_Unitaire_1_TestClasse
             Assert.IsFalse(user.add(item));
         }
         [TestMethod]
+        [TestCategory("Unit")]
         public void TestSave()
         {
             DateTime date = DateTime.Now.Subtract(TimeSpan.FromDays(365) * 14);
@@ -81,6 +85,7 @@ namespace Test_Unitaire_1_TestClasse
             Assert.ThrowsException<InvalidOperationException>(()=>user.save());
         }
         [TestMethod]
+        [TestCategory("Unit")]
         public void TestSave2()
         {
             var mock = new Mock<User>() { CallBase = true };
@@ -95,6 +100,7 @@ namespace Test_Unitaire_1_TestClasse
             //Assert.IsTrue(mock.Object.isValid());
         }
         [TestMethod]
+        [TestCategory("Unit")]
         public void TestSave3()
         {
             var mock = new Mock<User>() { CallBase = true };
@@ -108,6 +114,7 @@ namespace Test_Unitaire_1_TestClasse
         }
 
         [TestMethod]
+        [TestCategory("Unit")]
         public void testSendEMail()
         {
             var mock = new Mock<User>() { CallBase = true };
