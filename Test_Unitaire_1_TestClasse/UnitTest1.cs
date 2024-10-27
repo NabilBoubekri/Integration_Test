@@ -105,7 +105,7 @@ namespace Test_Unitaire_1_TestClasse
         {
             var mock = new Mock<User>() { CallBase = true };
             mock.Setup(x => x.save()).Returns(true);
-            mock.Object.email = "Usercom";
+            mock.Object.email = "User@gmail.com";
             mock.Object.prenom = "UserName";
             mock.Object.nom = "UserLastName";
             mock.Object.password = "aLABALALA123";
