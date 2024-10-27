@@ -58,7 +58,7 @@ namespace Test_Unitaire_1_TestClasse
         {
             DateTime date = DateTime.Now.Subtract(TimeSpan.FromDays(365) * 14);
             User user = new User("User@gmail.com", "UserName", "UserLastName", date, "aLABALALA1");
-            Item item = new Item("Repas", "Il faut faire à manger");
+            Item item = new Item("Repas", "Il faut faire ï¿½ manger");
             Assert.IsTrue(user.add(item));
         }
         [TestMethod]
@@ -66,8 +66,8 @@ namespace Test_Unitaire_1_TestClasse
         {
             DateTime date = DateTime.Now.Subtract(TimeSpan.FromDays(365) * 14);
             User user = new User("User@gmail.com", "UserName", "UserLastName", date, "aLABALALA1");
-            Item item = new Item("Repas", "Il faut faire à manger");
-            Item item2 = new Item("Repaas", "Il faut faire à manger");
+            Item item = new Item("Repas", "Il faut faire ï¿½ manger");
+            Item item2 = new Item("Repaas", "Il faut faire ï¿½ manger");
             user.add(item2);
             Assert.IsFalse(user.add(item));
         }
@@ -76,7 +76,7 @@ namespace Test_Unitaire_1_TestClasse
         {
             DateTime date = DateTime.Now.Subtract(TimeSpan.FromDays(365) * 14);
             User user = new User("User@gmail.com", "UserName", "UserLastName", date, "aLABALALA1");
-            Item item = new Item("Repas", "Il faut faire à manger");
+            Item item = new Item("Repas", "Il faut faire ï¿½ manger");
             user.add(item);
             Assert.ThrowsException<InvalidOperationException>(()=>user.save());
         }
@@ -85,7 +85,7 @@ namespace Test_Unitaire_1_TestClasse
         {
             var mock = new Mock<User>() { CallBase = true };
 
-            // Arrange la méthode save pour qu'elle retourne true
+            // Arrange la mï¿½thode save pour qu'elle retourne true
             mock.Setup(x => x.save()).Returns(true);
 
             // Teste le mock
@@ -99,7 +99,7 @@ namespace Test_Unitaire_1_TestClasse
         {
             var mock = new Mock<User>() { CallBase = true };
             mock.Setup(x => x.save()).Returns(true);
-            mock.Object.email = "User@gmailcom";
+            mock.Object.email = "Usercom";
             mock.Object.prenom = "UserName";
             mock.Object.nom = "UserLastName";
             mock.Object.password = "aLABALALA123";

@@ -393,7 +393,7 @@
             "rid": "win",
             "assetType": "runtime",
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "6.0.21.52210"
           },
           "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
             "rid": "win",
@@ -436,7 +436,10 @@
           "Moq": "4.20.72"
         },
         "runtime": {
-          "Test_Unitaire_1.dll": {}
+          "Test_Unitaire_1.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions/14.0.0.0": {

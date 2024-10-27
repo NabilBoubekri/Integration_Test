@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nabil\\source\\repos\\Test_Unitaire_1\\Test_Unitaire_1_TestClasse\\Test_Unitaire_1_TestClasse.csproj": {}
+    "/home/nabil/RiderProjects/Test_Unitaire_1/Test_Unitaire_1_TestClasse/Test_Unitaire_1_TestClasse.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nabil\\source\\repos\\Test_Unitaire_1\\Test_Unitaire_1\\Test_Unitaire_1.csproj": {
+    "/home/nabil/RiderProjects/Test_Unitaire_1/Test_Unitaire_1/Test_Unitaire_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nabil\\source\\repos\\Test_Unitaire_1\\Test_Unitaire_1\\Test_Unitaire_1.csproj",
+        "projectUniqueName": "/home/nabil/RiderProjects/Test_Unitaire_1/Test_Unitaire_1/Test_Unitaire_1.csproj",
         "projectName": "Test_Unitaire_1",
-        "projectPath": "C:\\Users\\nabil\\source\\repos\\Test_Unitaire_1\\Test_Unitaire_1\\Test_Unitaire_1.csproj",
-        "packagesPath": "C:\\Users\\nabil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nabil\\source\\repos\\Test_Unitaire_1\\Test_Unitaire_1\\obj\\",
+        "projectPath": "/home/nabil/RiderProjects/Test_Unitaire_1/Test_Unitaire_1/Test_Unitaire_1.csproj",
+        "packagesPath": "/home/nabil/.nuget/packages/",
+        "outputPath": "/home/nabil/RiderProjects/Test_Unitaire_1/Test_Unitaire_1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nabil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/nabil/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,36 +64,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/nabil/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nabil\\source\\repos\\Test_Unitaire_1\\Test_Unitaire_1_TestClasse\\Test_Unitaire_1_TestClasse.csproj": {
+    "/home/nabil/RiderProjects/Test_Unitaire_1/Test_Unitaire_1_TestClasse/Test_Unitaire_1_TestClasse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nabil\\source\\repos\\Test_Unitaire_1\\Test_Unitaire_1_TestClasse\\Test_Unitaire_1_TestClasse.csproj",
+        "projectUniqueName": "/home/nabil/RiderProjects/Test_Unitaire_1/Test_Unitaire_1_TestClasse/Test_Unitaire_1_TestClasse.csproj",
         "projectName": "Test_Unitaire_1_TestClasse",
-        "projectPath": "C:\\Users\\nabil\\source\\repos\\Test_Unitaire_1\\Test_Unitaire_1_TestClasse\\Test_Unitaire_1_TestClasse.csproj",
-        "packagesPath": "C:\\Users\\nabil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nabil\\source\\repos\\Test_Unitaire_1\\Test_Unitaire_1_TestClasse\\obj\\",
+        "projectPath": "/home/nabil/RiderProjects/Test_Unitaire_1/Test_Unitaire_1_TestClasse/Test_Unitaire_1_TestClasse.csproj",
+        "packagesPath": "/home/nabil/.nuget/packages/",
+        "outputPath": "/home/nabil/RiderProjects/Test_Unitaire_1/Test_Unitaire_1_TestClasse/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nabil\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/nabil/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nabil\\source\\repos\\Test_Unitaire_1\\Test_Unitaire_1\\Test_Unitaire_1.csproj": {
-                "projectPath": "C:\\Users\\nabil\\source\\repos\\Test_Unitaire_1\\Test_Unitaire_1\\Test_Unitaire_1.csproj"
+              "/home/nabil/RiderProjects/Test_Unitaire_1/Test_Unitaire_1/Test_Unitaire_1.csproj": {
+                "projectPath": "/home/nabil/RiderProjects/Test_Unitaire_1/Test_Unitaire_1/Test_Unitaire_1.csproj"
               }
             }
           }
@@ -152,7 +148,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/nabil/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
