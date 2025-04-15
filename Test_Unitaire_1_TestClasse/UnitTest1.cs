@@ -121,5 +121,19 @@ namespace Test_Unitaire_1_TestClasse
             mock.Setup(x => x.sendEmail()).Returns(true);
             Assert.IsTrue(mock.Object.sendEmail());
         }
+        
+        [TestMethod]
+        public void TestEvenNumber()
+        {
+            int number = 4;
+            CustomAssert.AssertIsEven(number);
+        }
+        
+        [TestMethod]
+        public void TestToto()
+        {
+            string toto = "toto";
+            CustomAssert.AssertIsToto(toto);
+        }
     }
 }
